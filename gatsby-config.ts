@@ -28,7 +28,9 @@ const config: GatsbyConfig = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  }, `gatsby-transformer-json`,
+
+]
 };
 
 export default config;
